@@ -1,0 +1,21 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Cache
+.cache/
+
+# Arquivos do editor
+.vscode/
+*.swp
+*.swo
+
+# Dependências (se usar no futuro)
+node_modules/

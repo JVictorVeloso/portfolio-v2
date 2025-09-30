@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Victor Veloso</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Devicon para ícones de Skills -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
+    <div class="particulas"></div>
+
+    <!-- Menu -->
+    <nav class="navegacao">
+      <ul class="menu">
+        <li><a href="#inicio" class="menu-link">Início</a></li>
+        <li><a href="#sobre" class="menu-link">Sobre</a></li>
+        <li><a href="#projetos" class="menu-link">Projetos</a></li>
+        <li><a href="#skills" class="menu-link">Skills</a></li>
+        <li><a href="#contato" class="menu-link">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Início -->
+    <main id="inicio" class="cabecalho">
+      <img src="img/victor.png" alt="Foto de Victor" class="foto-perfil" />
+      <h1>Victor Veloso</h1>
+      <p class="cabecalho-sub-titulo">
+        Em formação como Engenheiro de Software. Dedicado a desenvolver soluções
+        eficientes, escaláveis e focadas na experiência do usuário.
+      </p>
+    </main>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+      <h2 class="sobre-titulo">Sobre mim</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Sou estudante de Engenharia de Software com um forte interesse em
+          desenvolvimento. Estou sempre buscando aprender novas tecnologias e
+          aprimorar minhas habilidades.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projetos">
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+      <div class="projetos-caixa">
+        <!-- Projeto 1 -->
+        <div class="projetos-card">
+          <img
+            src="img/projeto1.jpg"
+            alt="Projeto Dev Links"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Dev Links</h3>
+            <p class="paragrafo-projetos">
+              O DevLinks é um agregador de links para usar como cartão de
+              visitas online.
+            </p>
+            <p class="paragrafo-projetos">
+              <strong>Tecnologias:</strong> HTML, CSS, JavaScript
+            </p>
+            <a
+              href="https://github.com/jvictorveloso/Projeto-LightDark-Links"
+              target="_blank"
+              class="botao-form"
+              >Ver Código no GitHub</a
+            >
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="projetos-card">
+          <img
+            src="img/projeto2.jpg"
+            alt="Projeto Meta Buddy"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Meta Buddy</h3>
+            <p class="paragrafo-projetos">
+              O Meta Buddy é um assistente inteligente de jogos que responde
+              perguntas sobre builds, estratégias e metas usando IA integrada
+              com a API Gemini.
+            </p>
+            <p class="paragrafo-projetos">
+              <strong>Tecnologias:</strong> HTML, CSS, JavaScript, API Gemini
+            </p>
+            <a
+              href="https://github.com/jvictorveloso/Projeto-Meta-Buddy"
+              target="_blank"
+              class="botao-form"
+              >Ver Código no GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+      <h2 class="projetos-titulo">Minhas Skills</h2>
+      <div class="projetos-caixa">
+        <div class="projetos-card">
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Tecnologias</h3>
+            <p class="paragrafo-projetos">
+              <i
+                class="devicon-python-plain colored"
+                style="font-size: 40px; margin: 5px"
+              ></i>
+              <i
+                class="devicon-javascript-plain colored"
+                style="font-size: 40px; margin: 5px"
+              ></i>
+              <i
+                class="devicon-html5-plain colored"
+                style="font-size: 40px; margin: 5px"
+              ></i>
+              <i
+                class="devicon-css3-plain colored"
+                style="font-size: 40px; margin: 5px"
+              ></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="projetos-card">
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Banco de Dados</h3>
+            <p class="paragrafo-projetos">
+              <i
+                class="devicon-mysql-plain colored"
+                style="font-size: 40px; margin: 5px"
+              ></i>
+              <i
+                class="devicon-postgresql-plain colored"
+                style="font-size: 40px; margin: 5px"
+              ></i>
+              <i
+                class="devicon-sqlite-plain colored"
+                style="font-size: 40px; margin: 5px"
+              ></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="projetos-card">
+          <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Controle de Versão</h3>
+            <p class="paragrafo-projetos">
+              <i
+                class="devicon-git-plain colored"
+                style="font-size: 40px; margin: 5px"
+              ></i>
+              <i
+                class="devicon-github-original"
+                style="font-size: 40px; margin: 5px; color: #fff"
+              ></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contatos">
+      <h2 class="contatos-titulo">Entre em Contato</h2>
+      <form class="formulario-contato" id="formulario">
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" id="nome" name="nome" />
+        </div>
+        <div class="grupo-form">
+          <textarea
+            class="campo-form"
+            placeholder="Digite sua Mensagem"
+            rows="6"
+            id="mensagem"
+            name="mensagem"
+          ></textarea>
+        </div>
+        <button type="submit" class="botao-form">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
