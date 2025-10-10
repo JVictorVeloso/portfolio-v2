@@ -31,11 +31,3 @@ function enviarWhats(event) {
 
   window.open(url, '_blank')
 }
-
-// Conectar a função ao formulário
-document.addEventListener('DOMContentLoaded', function() {
-  const formulario = document.getElementById('formulario')
-  if (formulario) {
-    formulario.addEventListener('submit', enviarWhats)
-  }
-})
